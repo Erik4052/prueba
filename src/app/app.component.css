@@ -1,0 +1,39 @@
+.left-bar{
+ background: #262a34;
+ color: #fff;
+ min-width: 300px;
+ min-height: 100vh;
+ padding: 0;
+}
+
+.left-bar a{
+    color: rgb(247, 247, 252);
+}
+
+.left-bar .logo{
+    background: #0275db;
+    margin-bottom: 2px;
+    min-width: 300px;
+    
+}
+.left-bar .logo h2 {
+    font-size: 30px;
+    font-family: 'Roboto' sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 300;
+    margin: 0px;
+}
+
+/*Menu*/
+.left-bar .menu a{
+    display: block;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-bottom: 2px solid rgba(247, 239, 239, 0.034);
+}
+.left-bar .menu a:hover{
+    background: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+}
